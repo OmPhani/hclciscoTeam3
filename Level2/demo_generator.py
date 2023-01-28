@@ -1,0 +1,8 @@
+num=(x*x for x in range(5))
+print(next(num))
+print(next(num))
+print(next(num))
+print(next(num))
+print(next(num))
+num.close()
+print(next(num))
